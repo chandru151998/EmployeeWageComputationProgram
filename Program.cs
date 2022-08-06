@@ -1,12 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
-namespace EmployeeWage
+namespace EmpPresentAbsent
 {
-    class program
+    class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Employee Wage Computation Program");
+            EmpAttendence.EmpAttd();
         }
     }
 }
